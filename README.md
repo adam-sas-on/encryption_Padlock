@@ -9,20 +9,28 @@ python main.py
 ```
 ### Menu commands and their purposes
 Select 1st prime
+
 :	User chooses first prime number being a part of private key
 Select 2nd prime
+
 :	User chooses second prime number being a part of private key
 elect parameter `e`
+
 :	User chooses the value for a part of public key usually denoted by `e`
 Encrypt number
+
 :	User types the value he wants to encrypt
 Decrypt number
+
 :	User types the value he wants to decrypt
 Brute force guess
+
 :	Simulating the brute force attack to find the value before encryption (this simulation can take noticeably long time)
 Show public values
+
 :	It gives the values for public key
 Show private values
+
 :	It gives the values for public key
 
 ## TODOs:
