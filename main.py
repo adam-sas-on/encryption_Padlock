@@ -45,8 +45,17 @@ def main(stdscr, job):
 	curses.cbreak()
 	stdscr.keypad(True)
 
-
+	#run = True
+	#menu = ["RSA cryptosystem", ...]
+	#selected = 0
+	#while run:
+		#ui.print_menu(stdscr, menu, [], selected, row_begin)
+		#(task, selected, n) = ui.input_select(stdscr, [], selected)
+#		if task == ord('\n') and selected == 0:
+#		elif task == ord('\n') and selected == 1:
+#		elif task == ord('\n') and selected == 2:
 	rsa.run(stdscr, job)
+#		else:
 
 
 	curses.nocbreak()
